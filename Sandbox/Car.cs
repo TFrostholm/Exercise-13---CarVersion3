@@ -100,7 +100,7 @@ namespace Sandbox
         {
             int rentalPrice = 0;
 
-            if (horsePower < 70.0)
+            if (horsePower <= 70.0)
             {
                 rentalPrice = 400;
             }
@@ -115,7 +115,7 @@ namespace Sandbox
                 rentalPrice = 700;
             }
 
-            if (horsePower > 200.0)
+            if (horsePower >= 200.0)
             {
                 rentalPrice = 1000;
             }
